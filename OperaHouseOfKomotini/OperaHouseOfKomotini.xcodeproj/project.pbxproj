@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6197DDC28385ECC00F805EA /* OperaHouseOfKomotiniApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6197DDB28385ECC00F805EA /* OperaHouseOfKomotiniApp.swift */; };
+		D6197DDE28385ECC00F805EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6197DDD28385ECC00F805EA /* ContentView.swift */; };
+		D6197DE028385ECE00F805EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6197DDF28385ECE00F805EA /* Assets.xcassets */; };
+		D6197DE328385ECE00F805EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6197DE228385ECE00F805EA /* Preview Assets.xcassets */; };
+		D6197DED28385ECF00F805EA /* OperaHouseOfKomotiniTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6197DEC28385ECF00F805EA /* OperaHouseOfKomotiniTests.swift */; };
+		D6197DF728385ECF00F805EA /* OperaHouseOfKomotiniUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6197DF628385ECF00F805EA /* OperaHouseOfKomotiniUITests.swift */; };
+		D6197DF928385ECF00F805EA /* OperaHouseOfKomotiniUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6197DF828385ECF00F805EA /* OperaHouseOfKomotiniUITestsLaunchTests.swift */; };
+		D62C30E8283980B90090880A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62C30E7283980B90090880A /* HomeView.swift */; };
+		D62C30EF283988950090880A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D62C30EE283988950090880A /* MapKit.framework */; };
+		D62C30F1283989650090880A /* FindMegaro.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62C30F0283989650090880A /* FindMegaro.swift */; };
+		D62C30F428398C330090880A /* Information.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62C30F328398C330090880A /* Information.swift */; };
+		D62C30F728398D160090880A /* SocialMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62C30F628398D160090880A /* SocialMedia.swift */; };
+		D62C30FA28398D8D0090880A /* OperaHouseOfWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62C30F928398D8D0090880A /* OperaHouseOfWebView.swift */; };
+		D62C30FE283993200090880A /* history.html in Resources */ = {isa = PBXBuildFile; fileRef = D62C30FB2839931F0090880A /* history.html */; };
+		D62C30FF283993200090880A /* parking.html in Resources */ = {isa = PBXBuildFile; fileRef = D62C30FC2839931F0090880A /* parking.html */; };
+		D62C3100283993200090880A /* amea.html in Resources */ = {isa = PBXBuildFile; fileRef = D62C30FD2839931F0090880A /* amea.html */; };
+		D62C3103283994C80090880A /* o_9d656940dd4d184f002.png in Resources */ = {isa = PBXBuildFile; fileRef = D62C3101283994C80090880A /* o_9d656940dd4d184f002.png */; };
+		D62C3104283994C80090880A /* o_87c56b6915db1150001.png in Resources */ = {isa = PBXBuildFile; fileRef = D62C3102283994C80090880A /* o_87c56b6915db1150001.png */; };
+		D62C3106283995410090880A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D62C3105283995410090880A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6197DE928385ECF00F805EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6197DD028385ECC00F805EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6197DD728385ECC00F805EA;
+			remoteInfo = OperaHouseOfKomotini;
+		};
+		D6197DF328385ECF00F805EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6197DD028385ECC00F805EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6197DD728385ECC00F805EA;
+			remoteInfo = OperaHouseOfKomotini;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6197DD828385ECC00F805EA /* OperaHouseOfKomotini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OperaHouseOfKomotini.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6197DDB28385ECC00F805EA /* OperaHouseOfKomotiniApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperaHouseOfKomotiniApp.swift; sourceTree = "<group>"; };
+		D6197DDD28385ECC00F805EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D6197DDF28385ECE00F805EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6197DE228385ECE00F805EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D6197DE828385ECF00F805EA /* OperaHouseOfKomotiniTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OperaHouseOfKomotiniTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6197DEC28385ECF00F805EA /* OperaHouseOfKomotiniTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperaHouseOfKomotiniTests.swift; sourceTree = "<group>"; };
+		D6197DF228385ECF00F805EA /* OperaHouseOfKomotiniUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OperaHouseOfKomotiniUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6197DF628385ECF00F805EA /* OperaHouseOfKomotiniUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperaHouseOfKomotiniUITests.swift; sourceTree = "<group>"; };
+		D6197DF828385ECF00F805EA /* OperaHouseOfKomotiniUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperaHouseOfKomotiniUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D62C30E7283980B90090880A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D62C30EE283988950090880A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D62C30F0283989650090880A /* FindMegaro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMegaro.swift; sourceTree = "<group>"; };
+		D62C30F328398C330090880A /* Information.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Information.swift; sourceTree = "<group>"; };
+		D62C30F628398D160090880A /* SocialMedia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMedia.swift; sourceTree = "<group>"; };
+		D62C30F928398D8D0090880A /* OperaHouseOfWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperaHouseOfWebView.swift; sourceTree = "<group>"; };
+		D62C30FB2839931F0090880A /* history.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = history.html; sourceTree = "<group>"; };
+		D62C30FC2839931F0090880A /* parking.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = parking.html; sourceTree = "<group>"; };
+		D62C30FD2839931F0090880A /* amea.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = amea.html; sourceTree = "<group>"; };
+		D62C3101283994C80090880A /* o_9d656940dd4d184f002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = o_9d656940dd4d184f002.png; sourceTree = "<group>"; };
+		D62C3102283994C80090880A /* o_87c56b6915db1150001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = o_87c56b6915db1150001.png; sourceTree = "<group>"; };
+		D62C3105283995410090880A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6197DD528385ECC00F805EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D62C30EF283988950090880A /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6197DE528385ECF00F805EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6197DEF28385ECF00F805EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6197DCF28385ECC00F805EA = {
+			isa = PBXGroup;
+			children = (
+				D6197DDA28385ECC00F805EA /* OperaHouseOfKomotini */,
+				D6197DEB28385ECF00F805EA /* OperaHouseOfKomotiniTests */,
+				D6197DF528385ECF00F805EA /* OperaHouseOfKomotiniUITests */,
+				D6197DD928385ECC00F805EA /* Products */,
+				D62C30ED283988950090880A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D6197DD928385ECC00F805EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6197DD828385ECC00F805EA /* OperaHouseOfKomotini.app */,
+				D6197DE828385ECF00F805EA /* OperaHouseOfKomotiniTests.xctest */,
+				D6197DF228385ECF00F805EA /* OperaHouseOfKomotiniUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6197DDA28385ECC00F805EA /* OperaHouseOfKomotini */ = {
+			isa = PBXGroup;
+			children = (
+				D62C30FD2839931F0090880A /* amea.html */,
+				D62C3101283994C80090880A /* o_9d656940dd4d184f002.png */,
+				D62C3102283994C80090880A /* o_87c56b6915db1150001.png */,
+				D62C30FB2839931F0090880A /* history.html */,
+				D62C30FC2839931F0090880A /* parking.html */,
+				D62C30E6283980AA0090880A /* View */,
+				D6197DDB28385ECC00F805EA /* OperaHouseOfKomotiniApp.swift */,
+				D6197DDD28385ECC00F805EA /* ContentView.swift */,
+				D6197DDF28385ECE00F805EA /* Assets.xcassets */,
+				D6197DE128385ECE00F805EA /* Preview Content */,
+				D62C3105283995410090880A /* LaunchScreen.storyboard */,
+			);
+			path = OperaHouseOfKomotini;
+			sourceTree = "<group>";
+		};
+		D6197DE128385ECE00F805EA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D6197DE228385ECE00F805EA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D6197DEB28385ECF00F805EA /* OperaHouseOfKomotiniTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6197DEC28385ECF00F805EA /* OperaHouseOfKomotiniTests.swift */,
+			);
+			path = OperaHouseOfKomotiniTests;
+			sourceTree = "<group>";
+		};
+		D6197DF528385ECF00F805EA /* OperaHouseOfKomotiniUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D6197DF628385ECF00F805EA /* OperaHouseOfKomotiniUITests.swift */,
+				D6197DF828385ECF00F805EA /* OperaHouseOfKomotiniUITestsLaunchTests.swift */,
+			);
+			path = OperaHouseOfKomotiniUITests;
+			sourceTree = "<group>";
+		};
+		D62C30E6283980AA0090880A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D62C30F828398D740090880A /* OperaHouseWebView */,
+				D62C30F528398CB90090880A /* SocialMedia */,
+				D62C30F228398C180090880A /* Information */,
+				D62C30EA2839828E0090880A /* FindUs */,
+				D62C30E9283982810090880A /* Home */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D62C30E9283982810090880A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D62C30E7283980B90090880A /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D62C30EA2839828E0090880A /* FindUs */ = {
+			isa = PBXGroup;
+			children = (
+				D62C30F0283989650090880A /* FindMegaro.swift */,
+			);
+			path = FindUs;
+			sourceTree = "<group>";
+		};
+		D62C30ED283988950090880A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D62C30EE283988950090880A /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D62C30F228398C180090880A /* Information */ = {
+			isa = PBXGroup;
+			children = (
+				D62C30F328398C330090880A /* Information.swift */,
+			);
+			path = Information;
+			sourceTree = "<group>";
+		};
+		D62C30F528398CB90090880A /* SocialMedia */ = {
+			isa = PBXGroup;
+			children = (
+				D62C30F628398D160090880A /* SocialMedia.swift */,
+			);
+			path = SocialMedia;
+			sourceTree = "<group>";
+		};
+		D62C30F828398D740090880A /* OperaHouseWebView */ = {
+			isa = PBXGroup;
+			children = (
+				D62C30F928398D8D0090880A /* OperaHouseOfWebView.swift */,
+			);
+			path = OperaHouseWebView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6197DD728385ECC00F805EA /* OperaHouseOfKomotini */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6197DFC28385ECF00F805EA /* Build configuration list for PBXNativeTarget "OperaHouseOfKomotini" */;
+			buildPhases = (
+				D6197DD428385ECC00F805EA /* Sources */,
+				D6197DD528385ECC00F805EA /* Frameworks */,
+				D6197DD628385ECC00F805EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OperaHouseOfKomotini;
+			productName = OperaHouseOfKomotini;
+			productReference = D6197DD828385ECC00F805EA /* OperaHouseOfKomotini.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6197DE728385ECF00F805EA /* OperaHouseOfKomotiniTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6197DFF28385ECF00F805EA /* Build configuration list for PBXNativeTarget "OperaHouseOfKomotiniTests" */;
+			buildPhases = (
+				D6197DE428385ECF00F805EA /* Sources */,
+				D6197DE528385ECF00F805EA /* Frameworks */,
+				D6197DE628385ECF00F805EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6197DEA28385ECF00F805EA /* PBXTargetDependency */,
+			);
+			name = OperaHouseOfKomotiniTests;
+			productName = OperaHouseOfKomotiniTests;
+			productReference = D6197DE828385ECF00F805EA /* OperaHouseOfKomotiniTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6197DF128385ECF00F805EA /* OperaHouseOfKomotiniUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6197E0228385ECF00F805EA /* Build configuration list for PBXNativeTarget "OperaHouseOfKomotiniUITests" */;
+			buildPhases = (
+				D6197DEE28385ECF00F805EA /* Sources */,
+				D6197DEF28385ECF00F805EA /* Frameworks */,
+				D6197DF028385ECF00F805EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6197DF428385ECF00F805EA /* PBXTargetDependency */,
+			);
+			name = OperaHouseOfKomotiniUITests;
+			productName = OperaHouseOfKomotiniUITests;
+			productReference = D6197DF228385ECF00F805EA /* OperaHouseOfKomotiniUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6197DD028385ECC00F805EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					D6197DD728385ECC00F805EA = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					D6197DE728385ECF00F805EA = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = D6197DD728385ECC00F805EA;
+					};
+					D6197DF128385ECF00F805EA = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = D6197DD728385ECC00F805EA;
+					};
+				};
+			};
+			buildConfigurationList = D6197DD328385ECC00F805EA /* Build configuration list for PBXProject "OperaHouseOfKomotini" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6197DCF28385ECC00F805EA;
+			productRefGroup = D6197DD928385ECC00F805EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6197DD728385ECC00F805EA /* OperaHouseOfKomotini */,
+				D6197DE728385ECF00F805EA /* OperaHouseOfKomotiniTests */,
+				D6197DF128385ECF00F805EA /* OperaHouseOfKomotiniUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6197DD628385ECC00F805EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D62C3103283994C80090880A /* o_9d656940dd4d184f002.png in Resources */,
+				D62C3106283995410090880A /* LaunchScreen.storyboard in Resources */,
+				D62C3104283994C80090880A /* o_87c56b6915db1150001.png in Resources */,
+				D6197DE328385ECE00F805EA /* Preview Assets.xcassets in Resources */,
+				D62C30FE283993200090880A /* history.html in Resources */,
+				D6197DE028385ECE00F805EA /* Assets.xcassets in Resources */,
+				D62C30FF283993200090880A /* parking.html in Resources */,
+				D62C3100283993200090880A /* amea.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6197DE628385ECF00F805EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6197DF028385ECF00F805EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6197DD428385ECC00F805EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D62C30E8283980B90090880A /* HomeView.swift in Sources */,
+				D6197DDE28385ECC00F805EA /* ContentView.swift in Sources */,
+				D6197DDC28385ECC00F805EA /* OperaHouseOfKomotiniApp.swift in Sources */,
+				D62C30FA28398D8D0090880A /* OperaHouseOfWebView.swift in Sources */,
+				D62C30F728398D160090880A /* SocialMedia.swift in Sources */,
+				D62C30F428398C330090880A /* Information.swift in Sources */,
+				D62C30F1283989650090880A /* FindMegaro.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6197DE428385ECF00F805EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6197DED28385ECF00F805EA /* OperaHouseOfKomotiniTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6197DEE28385ECF00F805EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6197DF928385ECF00F805EA /* OperaHouseOfKomotiniUITestsLaunchTests.swift in Sources */,
+				D6197DF728385ECF00F805EA /* OperaHouseOfKomotiniUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6197DEA28385ECF00F805EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6197DD728385ECC00F805EA /* OperaHouseOfKomotini */;
+			targetProxy = D6197DE928385ECF00F805EA /* PBXContainerItemProxy */;
+		};
+		D6197DF428385ECF00F805EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6197DD728385ECC00F805EA /* OperaHouseOfKomotini */;
+			targetProxy = D6197DF328385ECF00F805EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D6197DFA28385ECF00F805EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6197DFB28385ECF00F805EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6197DFD28385ECF00F805EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OperaHouseOfKomotini/Preview Content\"";
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OperaHouseOfKomotini;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6197DFE28385ECF00F805EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OperaHouseOfKomotini/Preview Content\"";
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OperaHouseOfKomotini;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D6197E0028385ECF00F805EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OperaHouseOfKomotiniTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OperaHouseOfKomotini.app/OperaHouseOfKomotini";
+			};
+			name = Debug;
+		};
+		D6197E0128385ECF00F805EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OperaHouseOfKomotiniTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OperaHouseOfKomotini.app/OperaHouseOfKomotini";
+			};
+			name = Release;
+		};
+		D6197E0328385ECF00F805EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OperaHouseOfKomotiniUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OperaHouseOfKomotini;
+			};
+			name = Debug;
+		};
+		D6197E0428385ECF00F805EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OperaHouseOfKomotiniUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OperaHouseOfKomotini;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6197DD328385ECC00F805EA /* Build configuration list for PBXProject "OperaHouseOfKomotini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6197DFA28385ECF00F805EA /* Debug */,
+				D6197DFB28385ECF00F805EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6197DFC28385ECF00F805EA /* Build configuration list for PBXNativeTarget "OperaHouseOfKomotini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6197DFD28385ECF00F805EA /* Debug */,
+				D6197DFE28385ECF00F805EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6197DFF28385ECF00F805EA /* Build configuration list for PBXNativeTarget "OperaHouseOfKomotiniTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6197E0028385ECF00F805EA /* Debug */,
+				D6197E0128385ECF00F805EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6197E0228385ECF00F805EA /* Build configuration list for PBXNativeTarget "OperaHouseOfKomotiniUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6197E0328385ECF00F805EA /* Debug */,
+				D6197E0428385ECF00F805EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6197DD028385ECC00F805EA /* Project object */;
+}
