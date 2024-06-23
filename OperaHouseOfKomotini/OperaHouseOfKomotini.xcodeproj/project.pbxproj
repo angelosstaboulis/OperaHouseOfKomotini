@@ -19,13 +19,15 @@
 		D62C30F1283989650090880A /* FindMegaro.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62C30F0283989650090880A /* FindMegaro.swift */; };
 		D62C30F428398C330090880A /* Information.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62C30F328398C330090880A /* Information.swift */; };
 		D62C30F728398D160090880A /* SocialMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62C30F628398D160090880A /* SocialMedia.swift */; };
-		D62C30FA28398D8D0090880A /* OperaHouseOfWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62C30F928398D8D0090880A /* OperaHouseOfWebView.swift */; };
 		D62C30FE283993200090880A /* history.html in Resources */ = {isa = PBXBuildFile; fileRef = D62C30FB2839931F0090880A /* history.html */; };
 		D62C30FF283993200090880A /* parking.html in Resources */ = {isa = PBXBuildFile; fileRef = D62C30FC2839931F0090880A /* parking.html */; };
 		D62C3100283993200090880A /* amea.html in Resources */ = {isa = PBXBuildFile; fileRef = D62C30FD2839931F0090880A /* amea.html */; };
 		D62C3103283994C80090880A /* o_9d656940dd4d184f002.png in Resources */ = {isa = PBXBuildFile; fileRef = D62C3101283994C80090880A /* o_9d656940dd4d184f002.png */; };
 		D62C3104283994C80090880A /* o_87c56b6915db1150001.png in Resources */ = {isa = PBXBuildFile; fileRef = D62C3102283994C80090880A /* o_87c56b6915db1150001.png */; };
 		D62C3106283995410090880A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D62C3105283995410090880A /* LaunchScreen.storyboard */; };
+		D6A299B92C28778100E6F041 /* PDFViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A299B82C28778100E6F041 /* PDFViewer.swift */; };
+		D6A299BB2C2877C700E6F041 /* OperaHouseOfWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A299BA2C2877C700E6F041 /* OperaHouseOfWebView.swift */; };
+		D6A299BD2C287A6700E6F041 /* megarokomotinis.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D6A299BC2C287A6700E6F041 /* megarokomotinis.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,13 +63,15 @@
 		D62C30F0283989650090880A /* FindMegaro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMegaro.swift; sourceTree = "<group>"; };
 		D62C30F328398C330090880A /* Information.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Information.swift; sourceTree = "<group>"; };
 		D62C30F628398D160090880A /* SocialMedia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMedia.swift; sourceTree = "<group>"; };
-		D62C30F928398D8D0090880A /* OperaHouseOfWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperaHouseOfWebView.swift; sourceTree = "<group>"; };
 		D62C30FB2839931F0090880A /* history.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = history.html; sourceTree = "<group>"; };
 		D62C30FC2839931F0090880A /* parking.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = parking.html; sourceTree = "<group>"; };
 		D62C30FD2839931F0090880A /* amea.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = amea.html; sourceTree = "<group>"; };
 		D62C3101283994C80090880A /* o_9d656940dd4d184f002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = o_9d656940dd4d184f002.png; sourceTree = "<group>"; };
 		D62C3102283994C80090880A /* o_87c56b6915db1150001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = o_87c56b6915db1150001.png; sourceTree = "<group>"; };
 		D62C3105283995410090880A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6A299B82C28778100E6F041 /* PDFViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewer.swift; sourceTree = "<group>"; };
+		D6A299BA2C2877C700E6F041 /* OperaHouseOfWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperaHouseOfWebView.swift; sourceTree = "<group>"; };
+		D6A299BC2C287A6700E6F041 /* megarokomotinis.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = megarokomotinis.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				D62C30FD2839931F0090880A /* amea.html */,
+				D6A299BC2C287A6700E6F041 /* megarokomotinis.pdf */,
 				D62C3101283994C80090880A /* o_9d656940dd4d184f002.png */,
 				D62C3102283994C80090880A /* o_87c56b6915db1150001.png */,
 				D62C30FB2839931F0090880A /* history.html */,
@@ -215,7 +220,8 @@
 		D62C30F828398D740090880A /* OperaHouseWebView */ = {
 			isa = PBXGroup;
 			children = (
-				D62C30F928398D8D0090880A /* OperaHouseOfWebView.swift */,
+				D6A299BA2C2877C700E6F041 /* OperaHouseOfWebView.swift */,
+				D6A299B82C28778100E6F041 /* PDFViewer.swift */,
 			);
 			path = OperaHouseWebView;
 			sourceTree = "<group>";
@@ -329,6 +335,7 @@
 				D62C3104283994C80090880A /* o_87c56b6915db1150001.png in Resources */,
 				D6197DE328385ECE00F805EA /* Preview Assets.xcassets in Resources */,
 				D62C30FE283993200090880A /* history.html in Resources */,
+				D6A299BD2C287A6700E6F041 /* megarokomotinis.pdf in Resources */,
 				D6197DE028385ECE00F805EA /* Assets.xcassets in Resources */,
 				D62C30FF283993200090880A /* parking.html in Resources */,
 				D62C3100283993200090880A /* amea.html in Resources */,
@@ -359,9 +366,10 @@
 				D62C30E8283980B90090880A /* HomeView.swift in Sources */,
 				D6197DDE28385ECC00F805EA /* ContentView.swift in Sources */,
 				D6197DDC28385ECC00F805EA /* OperaHouseOfKomotiniApp.swift in Sources */,
-				D62C30FA28398D8D0090880A /* OperaHouseOfWebView.swift in Sources */,
 				D62C30F728398D160090880A /* SocialMedia.swift in Sources */,
 				D62C30F428398C330090880A /* Information.swift in Sources */,
+				D6A299BB2C2877C700E6F041 /* OperaHouseOfWebView.swift in Sources */,
+				D6A299B92C28778100E6F041 /* PDFViewer.swift in Sources */,
 				D62C30F1283989650090880A /* FindMegaro.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
